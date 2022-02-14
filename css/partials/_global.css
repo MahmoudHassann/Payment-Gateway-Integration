@@ -1,0 +1,19 @@
+p.para {
+  color: var(--text-color);
+  font: normal 500 16px/ 25px var(--roboto);
+}
+
+.font-roboto {
+  font-family: var(--roboto);
+}
+.title-text {
+  font: normal bold 60px/72px var(--roboto);
+}
+.button {
+    padding: 0.8rem 2.2rem;
+    font: normal 500 18px/20px var(--roboto);
+    position: relative;
+    border: 3px solid transparent;
+    border-radius: 4px;
+    
+  }

@@ -1,0 +1,118 @@
+/* import fonts */
+@import url(./fonts.css);
+
+/* css variables */
+@import url(./partials/_variables.css);
+
+/* global styling */
+@import url(./partials/_global.css);
+
+/* header area */
+.navbar-dark .navbar-nav .nav-link {
+  font: normal 500 20px/2px var(--roboto);
+  padding: 1.7rem;
+}
+
+/* Banner area */
+.site-main .site-banner {
+  position: relative;
+  background: transparent url("../img/Background/Background.jpg") no-repeat
+    fixed center;
+  height: 100vh;
+  background-size: cover;
+}
+.site-main .site-banner .layer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.site-main .site-banner .icon {
+  padding-top: 10rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.3;
+}
+.site-main .site-banner h1 {
+  padding-top: 5rem;
+  color: #ffff;
+  position: relative;
+  font-size: 60px;
+  line-height: 1.1em;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: var(--shadow-color);
+}
+.site-main .site-banner .btn-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding-top: 1rem;
+}
+.site-main .site-banner .btn-1 button {
+  transition: 0.5s;
+}
+.site-main .site-banner .btn-1 button:hover {
+  color: white;
+  background-color: #9ae66e;
+}
+/* About area */
+.about-area {
+  padding-top: 10rem;
+}
+.about-area .title-text {
+  font: normal bold 40px/20px var(--roboto);
+}
+.about-area button {
+  transition: 0.5s;
+}
+.about-area button:hover {
+  color: white;
+  background-color: #9ae66e;
+}
+/* donate area */
+.donate-area {
+  background-color: #ffb830;
+  padding-top: 30px;
+  margin-top: 10rem;
+}
+.donate-area .para,
+h1 {
+  color: white;
+  text-align: center;
+}
+.donate-area h1 {
+  font-size: 2rem;
+}
+.donate-area .donate-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* photo area */
+.photo-area {
+  margin-top: 20px;
+}
+/* contact area */
+.contact-area {
+  position: relative;
+  background: #212529;
+  color: whitesmoke;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.contact-area .row {
+  margin-right: 0px !important;
+}
